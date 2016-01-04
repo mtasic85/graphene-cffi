@@ -1,9 +1,16 @@
 # graphene-cffi
 python cffi wrapper for graphene
 
+
+## API
+
+API is same as C API. You can find more on: https://github.com/ebassi/graphene
+
+
 ## PIP Install
 
 TODO
+
 
 ## Manual Install
 
@@ -31,6 +38,7 @@ git clone git@github.com:mtasic85/graphene-cffi.git
 cd graphene-cffi
 pypy -B graphene_cffi.py
 ```
+
 
 ## Example
 
