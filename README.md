@@ -15,6 +15,10 @@ pypy -B graphene_cffi.py
 
 ## Example
 
+```bash
+pypy
+```
+
 ```python
 from graphene import graphene as lib
 

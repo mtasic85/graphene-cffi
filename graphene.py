@@ -17,8 +17,6 @@ class GrapheneModule(object):
         self.cls_cache = {}
 
     def __getattr__(self, attr):
-        print('__getattr__', self, attr)
-
         try:
             g_cls = self.cls_cache[attr]
         except KeyError as e:
